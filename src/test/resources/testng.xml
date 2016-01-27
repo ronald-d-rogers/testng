@@ -378,6 +378,19 @@
         <class name="test.methods.VerifyMethod1" />
     </classes>
   </test>
+  
+  <test name="DefaultMethod">
+    <classes>
+        <class name="test.defaultmethods.DefaultMethodConcrete">
+          <methods>
+            <include name="concreteShouldRun1" />
+            <include name="concreteShouldRun2" />
+            <include name="interfaceShouldRun1" />
+          </methods>
+        </class>
+        <class name="test.defaultmethods.VerifyDefaultMethod" />
+    </classes>
+  </test>
 
   <test name="Object factory">
     <classes>
